@@ -47,7 +47,7 @@ jobs:
               sudo bash ./setup.sh
        
        - name: Download Stock Rom & Generate GSI
-         run: sudo bash url2GSI.sh -c --$BUILD_TYPE $ROM_URL $ROM_NAME
+         run: sudo bash ./url2GSI.sh -c --$BUILD_TYPE $ROM_URL $ROM_NAME
        
        - name: Zip GSI  
          run: |
@@ -59,7 +59,7 @@ jobs:
          run: |
               cd $GITHUB_WORKSPACE/ErfanGSIs/output
               curl -sL https://git.io/file-transfer | sh
-              ./transfer wet ./final/GSI.zip
+              ./transfer gof ./final/GSI.zip
 
          
             
