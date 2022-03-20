@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL: https://aab4to54oxt7uk4xrirght5kd7kmi888.node.ppio.cloud:35672/fsa167af8c.a.bdydns.com/1435501072/Firmware/Flyme/meizu17/9.0.0.3/cn/20210927171219/3a347faf/update.zip?f_ver=v1&max_age=7776000&r=IAEaER9sWWMnPzg6AldGMGYYCwgWI1gvLjtlERxEWSIpBwtOKjoPISR5JzIcTEFkf1pXT1x4RmJyeSk5WgQEZ3lFV1NbZ0F9c2dzeEZXB2F%2FEw8HQyMGKCAiL3kPX0QnBQsPDzIYfS4mLzkWUlpk&ppiouid=623708cce8d3940001487b190e96c783
-  ROM_NAME: Flyme
+  ROM_NAME: Generic
   BUILD_TYPE: ab
   TZ: Asia/Shanghai
 
